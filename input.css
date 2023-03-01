@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .input {
+        @apply border shadow-inner py-2 px-2 text-gray-800 w-full;
+    }
+
+    .input:focus    {
+        @apply focus:shadow-outline;
+    }
+}
+
+
+
